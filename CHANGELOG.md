@@ -25,6 +25,8 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 
+- CICD: Isolate loader tests in testing submodules
+- CICD: Remove version pin on NumPy < 2
 - Update `baxter_common` repository with a commit ID rather than a tag
 - Update `talos-data` repository with a commit ID rather than a tag
 
@@ -49,8 +51,6 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 
-- CICD: Isolate loader tests in testing submodules
-- CICD: Remove version pin on NumPy < 2
 - CICD: Update checkout actions to v4
 - Update MuJoCo Menagerie repository commit
 - Update eDO description repository
