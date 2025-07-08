@@ -333,4 +333,9 @@ REPOSITORIES: Dict[str, Repository] = {
         commit="f8e683f00d1d99deb882deb9dfce6030095b466a",  # FourierN1 branch
         cache_path="Wiki-GRx-Models-FourierN1",
     ),
+    "skeleton_description": Repository(
+        url="https://github.com/ShifanZhu/human-gazebo.git",
+        commit="cb49c719838ffc50a329c97efbb39e7f2a71026d",
+        cache_path="skeleton_description",
+    ),
 }

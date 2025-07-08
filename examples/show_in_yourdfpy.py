@@ -22,6 +22,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     try:
+        print("Loading robot description:", args.name)
         robot = load_robot_description(args.name)
     except ModuleNotFoundError:
         robot = load_robot_description(f"{args.name}_description")
