@@ -335,7 +335,7 @@ REPOSITORIES: Dict[str, Repository] = {
     ),
     "skeleton_description": Repository(
         url="https://github.com/ShifanZhu/human-gazebo.git",
-        commit="b43b8093813665fd5a9437b43c87d69d97409def",
+        commit=".",
         cache_path="human-gazebo",
     ),
 }
